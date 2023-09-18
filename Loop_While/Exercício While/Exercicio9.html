@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#9</title>
+</head>
+<body>
+    <script>
+        let escolha = parseInt(prompt("Digite um número"));
+        while (escolha <=10) {
+            let numero = Math.floor((Math.random("demo") * 10) + 1);
+            if (escolha == numero) {
+                console.log("Voce ganhou um premio!!");
+            } else {
+                console.log("Você errou digite outro número");
+            }
+            console.log(numero);
+            escolha++;
+        }
+    </script>
+</body>
+</html>
